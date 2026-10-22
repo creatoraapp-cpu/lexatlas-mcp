@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "lexatlas": {
+      "url": "https://api.lexatlas.creatora.app/mcp"
+    }
+  }
+}

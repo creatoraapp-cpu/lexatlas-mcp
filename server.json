@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "app.creatora.lexatlas/lexatlas-mcp",
+  "description": "Current law as data for AI: search, read and verify statutes and citations. CIS countries first.",
+  "version": "1.0.0",
+  "title": "LexAtlas",
+  "websiteUrl": "https://lexatlas.creatora.app/mcp.html",
+  "repository": {
+    "url": "https://github.com/creatoraapp-cpu/lexatlas-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lexatlas.creatora.app/mcp"
+    }
+  ]
+}
