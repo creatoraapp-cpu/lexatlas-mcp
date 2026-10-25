@@ -61,6 +61,25 @@ Add the block below to `settings.json` (user or project); Gemini CLI starts the 
 }
 ```
 
+### Cline
+Open MCP Servers → Configure (or edit `cline_mcp_settings.json`) and add the block below. Create the key in your account under API keys: <https://lexatlas.creatora.app/account/>. Docs: <https://docs.cline.bot/mcp/configuring-mcp-servers>
+
+```json
+{
+  "mcpServers": {
+    "lexatlas": {
+      "type": "streamableHttp",
+      "url": "https://api.lexatlas.creatora.app/mcp",
+      "headers": {
+        "X-API-Key": "lxa_..."
+      },
+      "disabled": false
+    }
+  }
+}
+```
+The same block is in [examples/cline-config.json](examples/cline-config.json). Step-by-step setup for an AI agent: [llms-install.md](llms-install.md).
+
 ### With an API key instead
 For a client without OAuth support, send a key in a header on every request to the same address:
 

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lexatlas": {
+      "type": "streamableHttp",
+      "url": "https://api.lexatlas.creatora.app/mcp",
+      "headers": {
+        "X-API-Key": "lxa_..."
+      },
+      "disabled": false
+    }
+  }
+}
