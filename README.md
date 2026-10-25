@@ -98,7 +98,6 @@ Per-tool pages: `https://lexatlas.creatora.app/docs/mcp/<tool>.html`
 | `lexatlas_get` | Full text with the act, status and provenance, or as it stood on a chosen date. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_get.html) |
 | `lexatlas_history` | When the article was changed and by which law, from the first version onwards. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_history.html) |
 | `lexatlas_search` | Provisions across jurisdictions, found by wording or by the situation described. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_search.html) |
-| `lexatlas_screen` | A name, alias or registered ID against official sanctions lists, quoted verbatim. Enabled per key on request; not in the default tool list. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_screen.html) |
 | `lexatlas_changes` | Everything amended since a date you name, for monitoring, not re-reading. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_changes.html) |
 | `lexatlas_citecheck` | Every legal reference in a draft checked at once, so invented citations surface. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_citecheck.html) |
 | `lexatlas_pipeline` | Draft laws by stage: introduced, read, signed, published. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_pipeline.html) |

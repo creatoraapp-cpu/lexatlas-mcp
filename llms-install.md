@@ -37,7 +37,7 @@ If the user prefers OAuth and the client supports it, leave out `headers`. The c
 
 ## 4. Check it works
 
-1. The server shows as connected, with 9 tools whose names start with `lexatlas_` (a 10th, `lexatlas_screen`, appears only for keys where it was enabled on request).
+1. The server shows as connected, with 9 read-only tools whose names start with `lexatlas_`.
 2. Call `lexatlas_search` with a short query, e.g. `{"query": "договор поставки", "jur": "ru"}`, and confirm that results come back with citations.
 
 A `401` response means the key is missing or wrong. Re-check the header name `X-API-Key` and the key itself.
