@@ -62,7 +62,7 @@ Add the block below to `settings.json` (user or project); Gemini CLI starts the 
 ```
 
 ### Cline
-Open MCP Servers → Configure (or edit `cline_mcp_settings.json`) and add the block below. Create the key in your account under API keys: <https://lexatlas.creatora.app/account/>. Docs: <https://docs.cline.bot/mcp/configuring-mcp-servers>
+In the Cline panel open MCP Servers → Configure and add the block below. Cline 4.1 and later reads the file `~/.cline/data/settings/cline_mcp_settings.json`; a copy in the old VS Code globalStorage path is ignored. Create the key in your account under API keys: <https://lexatlas.creatora.app/account/>. Docs: <https://docs.cline.bot/mcp/configuring-mcp-servers>
 
 ```json
 {
@@ -98,11 +98,10 @@ Per-tool pages: `https://lexatlas.creatora.app/docs/mcp/<tool>.html`
 | `lexatlas_get` | Full text with the act, status and provenance, or as it stood on a chosen date. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_get.html) |
 | `lexatlas_history` | When the article was changed and by which law, from the first version onwards. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_history.html) |
 | `lexatlas_search` | Provisions across jurisdictions, found by wording or by the situation described. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_search.html) |
-| `lexatlas_screen` | A name, alias or registered ID against official sanctions lists, quoted verbatim. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_screen.html) |
+| `lexatlas_screen` | A name, alias or registered ID against official sanctions lists, quoted verbatim. Enabled per key on request; not in the default tool list. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_screen.html) |
 | `lexatlas_changes` | Everything amended since a date you name, for monitoring, not re-reading. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_changes.html) |
 | `lexatlas_citecheck` | Every legal reference in a draft checked at once, so invented citations surface. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_citecheck.html) |
 | `lexatlas_pipeline` | Draft laws by stage: introduced, read, signed, published. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_pipeline.html) |
-| `lexatlas_coverage` | How complete a jurisdiction is, counted against the source's own register. | [MCP page](https://lexatlas.creatora.app/mcp.html#tools) |
 | `lexatlas_calendar` | Provisions coming into force in the weeks ahead, with dates. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_calendar.html) |
 | `lexatlas_related` | What an article relies on and what relies on it, with the meaning of each link. | [docs](https://lexatlas.creatora.app/docs/mcp/lexatlas_related.html) |
 
