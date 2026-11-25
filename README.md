@@ -1,5 +1,7 @@
 # LexAtlas MCP
 
+[![LexAtlas MCP connector](https://glama.ai/mcp/connectors/app.creatora.lexatlas/lexatlas-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/app.creatora.lexatlas/lexatlas-mcp)
+
 LexAtlas is current law as data for AI: statutes and codes as structured, versioned articles with smart search, daily updates and access via API and MCP.
 Citations an AI assistant cannot find in the base are flagged.
 We are on the way to full coverage of the world's law, starting with the CIS countries.
